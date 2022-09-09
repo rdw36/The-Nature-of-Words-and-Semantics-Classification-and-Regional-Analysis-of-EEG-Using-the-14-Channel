@@ -1,0 +1,28 @@
+CSV Extraction: 
+For each, 
+data = csvread('C:\MSc\imagined_speech_zach.csv', 1, 1);
+Then save at Matlab file
+
+
+Preprocessing
+Import as MATLAB variable, sampling rate, 15 channels.
+File, Import Event info from data channel. Channel 1. 
+Edit, Channels locations, MNI default. 
+Tools, remove epoch baseline.
+Apply some low FCR filter of your choice.
+Remove events that are over multiple channels.
+ICA implemented using your choice, remove what you feel is neccessary. 
+Export data and ICA to text, tick use comma separator and untick export time values,
+names as "something.csv"
+
+
+
+
+For Loreta
+time per epoch
+1280
+import event info 
+import channel
+remove baseline
+0.5 low pass
+decompose ICA 
