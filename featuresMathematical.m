@@ -1,7 +1,7 @@
 %% Convert Data into Vectors
 clear all
 
-data = csvread('C:\MSc\ICA\vlad_inner_ica.csv', 1, 0);
+data = csvread('C:\MSc\ICA\1_inner_ica.csv', 1, 0);
 data(256000, 1:14) = 0;
 row = 1;
 
